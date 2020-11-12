@@ -5,6 +5,23 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* CLEARFIX RULES */
 .clearfix::after {
   content: "";
@@ -24,15 +41,21 @@
 
 /* GENERAL CONTAINER DIMENSIONS */
 .container {
-  width: 80%;
+  width: 70%;
+  height: 100%;
+  border: 1px dotted black;
   margin: auto;
 }
 
 /* HEADER */
 header {
+  position: relative;
   height: 100vh;
   background-color: #fff3ee;
   border: 1px dotted black;
+  background-repeat: no-repeat;
+  background-image: url(../img/jumbotron.png);
+  background-position: 100% 101%;
 }
 
 /* UPPER HEADER */
@@ -40,6 +63,10 @@ header {
   height: 80px;
   background-color: #f4f9fd;
   border-bottom: 1px solid black;
+}
+
+.up-nav-sx {
+  line-height: 80px;
 }
 
 /* LOWER HEADER */
@@ -51,9 +78,16 @@ header {
 
 /* JUMBOTRON */
 .jumbotron {
-  height: 695px;
   background-color: #fff3ee;
-  background-image: url(../img/jumbotron.png);
-  background-position: 100% 0;
-  background-repeat: no-repeat;
+}
+
+.green-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 85px;
+  background-color: #afebe4;
+  border-bottom: 3px solid #33475b;
+  border-top: 3px solid #33475b;
+  z-index: 1;
 }
