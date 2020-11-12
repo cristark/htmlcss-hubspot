@@ -68,18 +68,21 @@ i {
 /* HEADER */
 header {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 80px);
   background-color: #fff3ee;
   background-repeat: no-repeat;
   background-image: url(../img/jumbotron.png);
-  background-position: 100% 101%;
+  background-position: 100% 100%;
 }
 
 /* UPPER HEADER */
 .up-header {
+  width: 100%;
   height: 80px;
   background-color: #f4f9fd;
   border-bottom: 1.5px solid black;
+  position: fixed;
+  top: 0;
 }
 
 .up-nav-sx,
@@ -105,6 +108,7 @@ header {
 .low-header {
   height: 80px;
   background-color: #fff;
+  margin-top: 80px;
 }
 
 .logo {
@@ -128,7 +132,7 @@ header {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 85px;
+  height: 84px;
   background-color: #afebe4;
   border-bottom: 3px solid #33475b;
   border-top: 3px solid #33475b;
