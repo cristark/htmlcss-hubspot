@@ -62,7 +62,6 @@ i {
 .container {
   width: 70%;
   height: 100%;
-  border: 1px dotted black;
   margin: auto;
 }
 
@@ -71,7 +70,6 @@ header {
   position: relative;
   height: 100vh;
   background-color: #fff3ee;
-  border: 1px dotted black;
   background-repeat: no-repeat;
   background-image: url(../img/jumbotron.png);
   background-position: 100% 101%;
@@ -81,11 +79,12 @@ header {
 .up-header {
   height: 80px;
   background-color: #f4f9fd;
-  border-bottom: 1px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 .up-nav-sx,
-.up-nav-dx {
+.up-nav-dx,
+.low-nav {
   line-height: 80px;
 }
 
@@ -106,7 +105,18 @@ header {
 .low-header {
   height: 80px;
   background-color: #fff;
-  border: 1px dotted black;
+}
+
+.logo {
+  line-height: 90px;
+}
+
+.low-nav li {
+  padding-left: 30px;
+}
+
+.low-nav i {
+  margin-left: 15px;
 }
 
 /* JUMBOTRON */
