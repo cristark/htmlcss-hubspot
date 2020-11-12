@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 ul {
@@ -17,9 +17,10 @@ li {
   display: inline-block;
 }
 
-a {
+a,
+i {
   text-decoration: none;
-  color: black;
+  color: #32495b;
 }
 
 /* CLEARFIX RULES */
@@ -38,6 +39,24 @@ a {
 }
 
 /* BUTTONS */
+.orange-btn {
+  padding: 8px;
+  color: white;
+  background-color: #fe775a;
+  border-radius: 5px;
+}
+
+.white-btn {
+  padding: 8px;
+  color: #fe775a;
+  background-color: white;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+}
+
+.big-btn {
+  padding: 20px;
+}
 
 /* GENERAL CONTAINER DIMENSIONS */
 .container {
@@ -65,8 +84,22 @@ header {
   border-bottom: 1px solid black;
 }
 
-.up-nav-sx {
+.up-nav-sx,
+.up-nav-dx {
   line-height: 80px;
+}
+
+.up-nav-sx li {
+  padding-right: 20px;
+}
+
+.up-nav-sx li:first-child a {
+  border-right: 2px solid #32495b;
+  padding-right: 20px;
+}
+
+.up-nav-dx li {
+  padding-left: 20px;
 }
 
 /* LOWER HEADER */
