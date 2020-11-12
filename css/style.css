@@ -1,0 +1,59 @@
+/* GENERAL RULES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CLEARFIX RULES */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+/* BUTTONS */
+
+/* GENERAL CONTAINER DIMENSIONS */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  height: 100vh;
+  background-color: #fff3ee;
+  border: 1px dotted black;
+}
+
+/* UPPER HEADER */
+.up-header {
+  height: 80px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid black;
+}
+
+/* LOWER HEADER */
+.low-header {
+  height: 80px;
+  background-color: #fff;
+  border: 1px dotted black;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  height: 695px;
+  background-color: #fff3ee;
+  background-image: url(../img/jumbotron.png);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+}
