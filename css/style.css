@@ -89,6 +89,7 @@ header {
   border-bottom: 1.5px solid #33475b;
   position: fixed;
   top: 0;
+  z-index: 2;
 }
 
 .up-nav-sx,
@@ -171,4 +172,30 @@ header {
   border-bottom: 3px solid #33475b;
   border-top: 3px solid #33475b;
   z-index: 1;
+}
+
+/* MAIN */
+
+/* SEZIONE SERVIZI */
+.services {
+  height: 100vh;
+  background-color: #f4f9fd;
+}
+
+/* SEZIONE NUMERI AZIENDA */
+.numbers {
+  height: 700px;
+  background-image: linear-gradient(to right, #00aab8, #00bba8);
+}
+
+/* SEZIONE CUSTOMERS */
+.customers {
+  height: 600px;
+  background-color: #f4f9fd;
+}
+
+/* FOOTER */
+footer {
+  height: 600px;
+  background-color: #32495b;
 }
