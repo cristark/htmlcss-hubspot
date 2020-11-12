@@ -23,6 +23,10 @@ i {
   color: #32495b;
 }
 
+p {
+  line-height: 1.8;
+}
+
 /* CLEARFIX RULES */
 .clearfix::after {
   content: "";
@@ -124,8 +128,28 @@ header {
 }
 
 /* JUMBOTRON */
-.jumbotron {
-  background-color: #fff3ee;
+.jumb-text {
+  width: 50%;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.jumb-text h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.jumb-text p {
+  margin-bottom: 50px;
+}
+
+.jumb-text a {
+  margin-bottom: 20px;
+}
+
+.jumb-text small {
+  margin-top: 50px;
+  display: block;
 }
 
 .green-bar {
