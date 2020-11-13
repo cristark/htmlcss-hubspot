@@ -7,6 +7,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  color: #33475b;
 }
 
 ul {
@@ -77,7 +78,7 @@ header {
   height: calc(100vh - 80px);
   background-color: #fff3ee;
   background-repeat: no-repeat;
-  background-image: url(../img/jumbotron.png);
+  background-image: url(../img/jumbotronl.png);
   background-position: 100% 100%;
 }
 
@@ -92,9 +93,8 @@ header {
   z-index: 2;
 }
 
-.up-nav-sx,
-.up-nav-dx,
-.low-nav {
+.up-header,
+.low-header {
   line-height: 80px;
 }
 
@@ -123,8 +123,8 @@ header {
   box-shadow: 0 2px 10px lightgray;
 }
 
-.logo {
-  line-height: 95px;
+.logo img {
+  vertical-align: middle;
 }
 
 .low-nav li {
@@ -143,9 +143,9 @@ header {
 }
 
 .jumb-text h1 {
-  color: #33475b;
+  font-family: "Montserrat", sans-serif;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 30px;
 }
 
@@ -162,7 +162,8 @@ header {
   display: block;
 }
 
-.jumbotron::after {
+/* BARRA VERDE JUMBOTRON */
+/* .jumbotron::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -172,14 +173,42 @@ header {
   border-bottom: 3px solid #33475b;
   border-top: 3px solid #33475b;
   z-index: 1;
-}
+} */
 
-/* MAIN */
+/* - - MAIN - - */
+main {
+  background-color: #f4f9fd;
+}
 
 /* SEZIONE SERVIZI */
 .services {
   height: 100vh;
-  background-color: #f4f9fd;
+}
+
+.rubick {
+  text-align: center;
+  padding: 50px 150px;
+}
+
+.rubick img {
+  height: 200px;
+}
+
+.rubick h2 {
+  font-size: 200%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.box {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px lightgray;
+}
+
+.single-box {
+  height: 300px;
 }
 
 /* SEZIONE NUMERI AZIENDA */
@@ -191,7 +220,6 @@ header {
 /* SEZIONE CUSTOMERS */
 .customers {
   height: 600px;
-  background-color: #f4f9fd;
 }
 
 /* FOOTER */
