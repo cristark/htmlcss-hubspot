@@ -30,6 +30,12 @@ p {
   color: #33475b;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
 /* CLEARFIX RULES */
 .clearfix::after {
   content: "";
@@ -181,10 +187,7 @@ main {
 }
 
 /* SEZIONE SERVIZI */
-.services {
-  height: 100vh;
-}
-
+/* Prima Parte */
 .rubick {
   text-align: center;
   padding: 50px 150px;
@@ -196,19 +199,86 @@ main {
 
 .rubick h2 {
   font-size: 200%;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  margin-bottom: 30px;
 }
 
+/* Seconda Parte - Singola Colonna*/
 .box {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 5px lightgray;
+  margin-bottom: 50px;
 }
 
 .single-box {
-  height: 300px;
+  height: 350px;
+  padding: 50px;
+  text-align: center;
+}
+
+.sx-section {
+  width: 30%;
+  height: 100%;
+}
+
+.single-box .sx-section img {
+  height: 50%;
+  margin-bottom: 40px;
+}
+
+.dx-section {
+  width: 70%;
+  height: 100%;
+  text-align: left;
+}
+
+/* Modifica esclusivamente al primo p */
+.dx-section > p:nth-child(2) {
+  padding-right: 200px;
+}
+
+/* Modifica esclusivamente al secondo p */
+.dx-section > p:nth-child(3) {
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Linea laterale creata con ::after */
+.dx-section > p:nth-child(3)::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  height: 2px;
+  margin: 0 50px;
+  background-color: gray;
+}
+
+.dx-section p {
+  margin-bottom: 28px;
+}
+
+.dx-section li {
+  margin-right: 20px;
+}
+
+.dx-section i {
+  color: #fe775a;
+  margin-right: 20px;
+}
+
+/* Terza Parte - 3 Colonne */
+.three-column-services {
+  width: 100%;
+}
+
+.three-column-services .triple-box:nth-child(2) {
+  margin: 0 5%;
+}
+
+.triple-box {
+  width: 30%;
+  height: 600px;
 }
 
 /* SEZIONE NUMERI AZIENDA */
