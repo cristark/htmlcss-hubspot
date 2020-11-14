@@ -460,6 +460,35 @@ a {
 
 /* FOOTER */
 footer {
-  height: 650px;
+  height: 600px;
   background-color: #32495b;
+}
+
+.footer-nav {
+  height: 65%;
+}
+
+.footer-col {
+  width: calc(100% / 4);
+  height: 100%;
+  margin-bottom: 40px;
+  border: 1px solid green;
+}
+
+.footer {
+  height: 35%;
+}
+
+.languages-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer hr {
+  color: white;
+}
+
+.languages-section a {
+  color: white;
+  margin-right: 30px;
 }
