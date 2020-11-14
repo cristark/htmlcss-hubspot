@@ -379,19 +379,19 @@ main {
   font-size: 90%;
 }
 
-/* SEZIONE CUSTOMERS */
+/* SEZIONE CUSTOMERS - PARTNERS */
 .customers {
-  height: 650px;
+  height: 700px;
 }
 
 .customers-list {
   padding: 40px 80px;
-  height: 320px;
+  height: 300px;
 }
 
 .list-num {
   text-align: left;
-  width: 20%;
+  width: 30%;
   height: 100%;
   margin-right: 100px;
 }
@@ -405,13 +405,12 @@ main {
 }
 
 .list-partners {
-  width: calc(80% - 100px);
+  width: calc(70% - 100px);
   height: 100%;
   text-align: center;
 }
 
 .box-row {
-  /* padding: 0 5px; */
   height: 50%;
 }
 
@@ -428,8 +427,39 @@ main {
   vertical-align: middle;
 }
 
+/* SEZIONE CUSTOMERS - CTA */
+.customers-cta .cta {
+  width: 40%;
+  height: 400px;
+}
+
+.cta h1 {
+  font-size: 200%;
+  margin-bottom: 40px;
+}
+
+.cta p,
+a {
+  margin-bottom: 60px;
+}
+
+.cta small {
+  display: block;
+  margin-top: 60px;
+}
+
+.customers-cta .cta-img {
+  text-align: right;
+  width: 60%;
+  height: 350px;
+}
+
+.cta-img img {
+  height: 100%;
+}
+
 /* FOOTER */
 footer {
-  height: 600px;
+  height: 650px;
   background-color: #32495b;
 }
