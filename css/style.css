@@ -381,7 +381,51 @@ main {
 
 /* SEZIONE CUSTOMERS */
 .customers {
-  height: 600px;
+  height: 650px;
+}
+
+.customers-list {
+  padding: 40px 80px;
+  height: 320px;
+}
+
+.list-num {
+  text-align: left;
+  width: 20%;
+  height: 100%;
+  margin-right: 100px;
+}
+
+.customers-list .list-num h2 {
+  font-size: 250%;
+}
+
+.customers-list .list-num p {
+  width: 70%;
+}
+
+.list-partners {
+  width: calc(80% - 100px);
+  height: 100%;
+  text-align: center;
+}
+
+.box-row {
+  /* padding: 0 5px; */
+  height: 50%;
+}
+
+.partners-box {
+  width: calc(100% / 4);
+  height: 100%;
+  padding: 20px;
+}
+
+.partners-box img {
+  max-height: 100%;
+  width: 120px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* FOOTER */
