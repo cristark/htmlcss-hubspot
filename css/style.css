@@ -1,4 +1,4 @@
-/* GENERAL RULES */
+/* - - GENERAL RULES - - */
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +78,7 @@ h2 {
   margin: auto;
 }
 
-/* HEADER */
+/* - - HEADER - - */
 header {
   position: relative;
   height: calc(100vh - 80px);
@@ -182,11 +182,13 @@ header {
 } */
 
 /* - - MAIN - - */
+
 main {
   background-color: #f4f9fd;
 }
 
 /* SEZIONE SERVIZI */
+
 /* Prima Parte */
 .rubick {
   text-align: center;
@@ -232,10 +234,11 @@ main {
 }
 
 /* Modifica esclusivamente al primo p */
-.dx-section > p:nth-child(2) {
-  padding-right: 200px;
+.dx-section p:nth-child(2) {
+  padding-right: 150px;
 }
 
+/* Classe creata per poterla ripetere velocemente in altre sezioni del sito */
 .popular-text {
   font-size: 110%;
   text-transform: uppercase;
@@ -243,7 +246,7 @@ main {
 }
 
 /* Linea laterale creata con ::after */
-.dx-section > p:nth-child(3)::after {
+.dx-section p:nth-child(3)::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -267,10 +270,6 @@ main {
 }
 
 /* Terza Parte - 3 Colonne */
-.three-column-services {
-  width: 100%;
-}
-
 .three-column-services .triple-box:nth-child(2) {
   margin: 0 5%;
 }
@@ -296,7 +295,7 @@ main {
   width: 100%;
   height: 2px;
   background-color: gray;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .triple-box ul {
@@ -322,6 +321,62 @@ main {
 .numbers {
   height: 700px;
   background-image: linear-gradient(to right, #00aab8, #00bba8);
+  padding: 50px;
+}
+
+/* Sezione Testo */
+.text-numbers {
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.text-numbers h1 {
+  font-size: 200%;
+  margin-bottom: 30px;
+}
+
+.text-numbers p {
+  color: white;
+}
+
+/* Sezione numeri */
+.down-num-boxes {
+  border-top: 1px solid white;
+}
+
+.num-boxes {
+  width: calc(100% / 4);
+  height: 50%;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.divisor {
+  border-right: 1px solid white;
+}
+
+.num-boxes img {
+  height: 35px;
+}
+
+.num-boxes > :nth-child(2) {
+  color: white;
+  font-size: 250%;
+  font-weight: 700;
+}
+
+.num-boxes > :nth-child(2)::after {
+  content: "+";
+  font-size: 60%;
+  font-weight: normal;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.num-boxes > :nth-child(3) {
+  color: white;
+  font-size: 90%;
 }
 
 /* SEZIONE CUSTOMERS */
