@@ -57,6 +57,7 @@ h2 {
   color: white;
   background-color: #fe775a;
   border-radius: 5px;
+  border: 1px solid transparent;
 }
 
 .white-btn {
@@ -69,6 +70,19 @@ h2 {
 
 .big-btn {
   padding: 20px 30px;
+}
+
+/* BUTTONS HOVER */
+.orange-btn:hover {
+  background-color: transparent;
+  border: 1px solid #fe775a;
+  color: #fe775a;
+}
+
+.white-btn:hover {
+  background-color: #32495b;
+  color: white;
+  border: 1px solid transparent;
 }
 
 /* GENERAL CONTAINER DIMENSIONS */
@@ -108,6 +122,10 @@ header {
   padding-right: 20px;
 }
 
+.up-nav-sx li:hover {
+  text-decoration: underline;
+}
+
 .up-nav-sx li:first-child a {
   border-right: 1.5px solid #32495b;
   padding-right: 20px;
@@ -119,6 +137,10 @@ header {
 
 .up-nav-dx li:first-child i {
   color: #06a6bf;
+}
+
+.up-nav-dx li:first-child i:hover {
+  color: #32495b;
 }
 
 /* LOWER HEADER */
@@ -135,6 +157,10 @@ header {
 
 .low-nav li {
   padding-left: 30px;
+}
+
+.low-nav a:hover {
+  text-decoration: underline;
 }
 
 .low-nav i {
@@ -498,16 +524,17 @@ footer a:hover {
   margin-bottom: 20px;
 }
 
+.footer-col:last-child ul > li:nth-child(5) {
+  margin-bottom: 30px;
+}
+
+/* Pulsante Contatti Parte sup. footer */
 .contact-btn {
   font-size: 90%;
   background-color: #cbd6e2;
   color: #32495b;
   padding: 10px;
   border-radius: 5px;
-}
-
-.footer-col:last-child ul > li:nth-child(5) {
-  margin-bottom: 30px;
 }
 
 .contact-btn:hover {
@@ -517,6 +544,7 @@ footer a:hover {
   color: #cbd6e2;
 }
 
+/* Icone Social Parte sup. footer */
 .social-icons li {
   display: inline-block;
   margin-top: 10px;
@@ -532,6 +560,7 @@ footer a:hover {
   color: #fff;
 }
 
+/* Footer Inferiore */
 .footer {
   height: 35%;
 }
@@ -564,3 +593,27 @@ footer a:hover {
 .copy-dx li {
   margin-left: 25px;
 }
+
+/* CHAT BOT */
+.chat-bot {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #425b76;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.chat-icon {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.chat-icon i {
+  color: white;
+  font-size: 30px;
+}
+
+/* FINE */
