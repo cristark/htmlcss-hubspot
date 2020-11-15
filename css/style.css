@@ -74,15 +74,14 @@ h2 {
 
 /* BUTTONS HOVER */
 .orange-btn:hover {
-  background-color: transparent;
+  /* background-color: transparent;
   border: 1px solid #fe775a;
-  color: #fe775a;
+  color: #fe775a; */
+  opacity: 0.6;
 }
 
 .white-btn:hover {
-  background-color: #32495b;
-  color: white;
-  border: 1px solid transparent;
+  background-color: rgba(254, 120, 90, 0.25);
 }
 
 /* GENERAL CONTAINER DIMENSIONS */
@@ -124,6 +123,11 @@ header {
 
 .up-nav-sx li:hover {
   text-decoration: underline;
+  color: #06a6bf;
+}
+
+.up-nav-sx a:hover {
+  color: #06a6bf;
 }
 
 .up-nav-sx li:first-child a {
@@ -137,10 +141,6 @@ header {
 
 .up-nav-dx li:first-child i {
   color: #06a6bf;
-}
-
-.up-nav-dx li:first-child i:hover {
-  color: #32495b;
 }
 
 /* LOWER HEADER */
@@ -161,6 +161,7 @@ header {
 
 .low-nav a:hover {
   text-decoration: underline;
+  color: #06a6bf;
 }
 
 .low-nav i {
@@ -500,6 +501,7 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+  color: lightskyblue;
 }
 
 .footer-nav {
@@ -539,9 +541,8 @@ footer a:hover {
 
 .contact-btn:hover {
   text-decoration: none;
-  background-color: transparent;
-  border: 1px solid #cbd6e2;
-  color: #cbd6e2;
+  background-color: #cbd6e2cb;
+  color: #32495b;
 }
 
 /* Icone Social Parte sup. footer */
@@ -557,7 +558,7 @@ footer a:hover {
 
 .social-icons i:hover {
   cursor: pointer;
-  color: #fff;
+  color: lightskyblue;
 }
 
 /* Footer Inferiore */
