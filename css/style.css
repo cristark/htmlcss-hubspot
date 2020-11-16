@@ -605,6 +605,53 @@ footer a:hover {
 }
 
 /* CHAT BOT */
+/* BOX */
+.chat-box {
+  width: 240px;
+  height: 116px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 97px;
+  right: 16px;
+  z-index: 2;
+  text-align: center;
+}
+
+.chat-box img {
+  height: 48px;
+  text-align: center;
+  margin-bottom: 10px;
+  transform: translateY(-50%);
+}
+
+.chat-box a {
+  text-align: right;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+}
+
+.chat-box i {
+  color: #7c98b6;
+}
+
+.chat-box a:hover {
+  cursor: pointer;
+}
+
+.chat-box p {
+  text-align: left;
+  font-size: 14px;
+  transform: translateY(-45%);
+  padding: 15px;
+  line-height: 1.8;
+}
+
+/* PULSANTE */
 .chat-bot {
   width: 60px;
   height: 60px;
@@ -612,12 +659,14 @@ footer a:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   background-color: #425b76;
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 16px;
+  right: 16px;
+  z-index: 3;
 }
 
 .chat-bot:hover {
   cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .chat-icon {
