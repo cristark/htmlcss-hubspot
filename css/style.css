@@ -168,6 +168,11 @@ header {
   margin-left: 15px;
 }
 
+/* Hamburger Menù on mobile */
+.hamburger {
+  display: none;
+}
+
 /* JUMBOTRON */
 .jumb-text {
   width: 50%;
@@ -679,4 +684,221 @@ footer a:hover {
   font-size: 30px;
 }
 
-/* FINE */
+/* RESPONSIVE SECTION */
+
+/* Visualizzazione Tablet */
+@media screen and (max-width: 768px) {
+  /* Eliminazione Box Chat Bot */
+  .chat-box {
+    display: none;
+  }
+
+  /* General */
+  .container {
+    width: 80%;
+  }
+
+  header {
+    background-size: 100%;
+  }
+
+  /* Barra menù principale */
+  .low-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+    font-size: 250%;
+  }
+
+  /* Sezione Jumbotron */
+  .jumb-text {
+    width: 70%;
+    margin-top: 40px;
+  }
+
+  .jumb-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .jumb-text p {
+    margin-bottom: 40px;
+  }
+
+  .jumb-text a {
+    margin-bottom: 15px;
+  }
+
+  .jumb-text small {
+    margin-top: 40px;
+    width: 50%;
+  }
+
+  .jumbotron::after {
+    display: none;
+  }
+
+  /* Sezione Servizi */
+  .rubick {
+    padding: 50px 50px;
+  }
+
+  .single-box {
+    height: 500px;
+    padding: 30px 50px;
+  }
+
+  .sx-section {
+    width: 100%;
+    height: 40%;
+  }
+
+  .single-box .sx-section img {
+    height: 90%;
+    margin-bottom: 30px;
+  }
+
+  .dx-section {
+    width: 100%;
+    height: 40%;
+    margin-top: 95px;
+    text-align: center;
+  }
+
+  .dx-section p:nth-child(2) {
+    padding-right: 0;
+  }
+
+  .dx-section p:nth-child(3)::after {
+    display: none;
+  }
+
+  .dx-section h2 {
+    margin-bottom: 10px;
+  }
+
+  .dx-section p {
+    margin-bottom: 8px;
+  }
+
+  .three-column-services .triple-box:nth-child(2) h2 {
+    font-size: 25px;
+  }
+
+  .triple-box {
+    padding: 20px 20px;
+  }
+
+  .triple-box > :nth-child(3)::after {
+    margin-top: 40px;
+  }
+
+  .triple-box > :nth-child(3) {
+    height: 280px;
+    margin-bottom: 0;
+  }
+
+  .triple-box .popular-text {
+    line-height: normal;
+  }
+
+  .triple-box li {
+    font-size: 12px;
+  }
+
+  .triple-box i {
+    margin-right: 5px;
+  }
+
+  /* Sezione Numeri Azienda */
+  .num-boxes {
+    padding: 20px 5px;
+  }
+
+  .num-boxes img {
+    height: 30px;
+  }
+
+  .num-boxes p {
+    font-size: 220%;
+  }
+
+  /* Sezione Customers */
+  .customers-list {
+    padding: 40px 0px;
+  }
+
+  .list-num {
+    margin-right: 0;
+  }
+
+  .customers-list .list-num h2 {
+    font-size: 220%;
+  }
+
+  .list-partners {
+    width: 70%;
+  }
+
+  .box-row {
+    margin-top: 20px;
+  }
+
+  .box-row li {
+    margin-right: 5px;
+  }
+
+  .box-row li img {
+    width: 98px;
+  }
+
+  /* Sezione CTA */
+  .cta h1 {
+    font-size: 180%;
+    margin-bottom: 20px;
+  }
+
+  .cta p {
+    margin-bottom: 40px;
+    line-height: normal;
+  }
+
+  .cta small {
+    margin-top: 50px;
+  }
+
+  /* Footer */
+  footer {
+    height: 700px;
+  }
+
+  .footer-nav {
+    height: 75%;
+  }
+
+  .footer-col {
+    padding: 30px 15px 0;
+    margin-bottom: 0;
+  }
+
+  .footer-col p {
+    font-size: 95%;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  .footer-col li {
+    margin-bottom: 10px;
+  }
+
+  .footer-col:last-child ul > li:nth-child(5) {
+    margin-bottom: 20px;
+  }
+
+  .contact-btn {
+    font-size: 60%;
+    padding: 10px 5px;
+  }
+}
